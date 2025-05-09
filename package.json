@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@layercode/react-sdk": "^1.0.13",
+    "@layercode/react-sdk": "^1.0.14",
     "@tailwindcss/vite": "^4.1.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
