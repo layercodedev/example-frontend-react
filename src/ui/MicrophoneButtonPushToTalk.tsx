@@ -7,7 +7,7 @@ export function MicrophoneButtonPushToTalk({
   triggerUserTurnStarted: () => void;
   triggerUserTurnFinished: () => void;
 }) {
-  // When using push-to-talk turn taking in your Layercode voice pipeline, you'll need to call triggerUserTurnStarted and triggerUserTurnFinished when the uses holds down the microphone button or spacebar.
+  // When using push-to-talk turn taking in your Layercode voice agent, you'll need to call triggerUserTurnStarted and triggerUserTurnFinished when the uses holds down the microphone button or spacebar.
   // The useButtonHold hook handles this state, and also include debouncing so that short accidential clicks are ignored.
   const { isVisuallyPressed, handlePressStart, handlePressEnd } = useButtonHold({
     onPressStart: triggerUserTurnStarted,
